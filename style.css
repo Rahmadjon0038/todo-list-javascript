@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.container .title{
+    text-align: center;
+    margin: 10px 0px;
+    transition:0.5s;
+}
+.inputbox{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+.inputbox input{
+    width: 100%;
+    padding: 13px;
+    outline: none;
+    transition: 0.5s;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.inputbox button{
+    border-radius: 5px;
+
+    padding: 0 40px;
+    font-size: 18px;
+    color: wheat;
+    background-color: rgba(3, 15, 239, 0.669);
+    border: none;
+    cursor: pointer;
+}
+.inputbox button:hover{
+    background-color: rgba(4, 11, 147, 0.669);
+}
+.tasks{
+    margin-top: 30px;
+}
+#task{
+    margin-top: 10px;
+    padding: 13px;
+    box-shadow: 0 0 7px silver;
+    border-radius: 5px;
+    border-left: 5px solid blue;
+    border-right: 5px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+.delbtn{
+    padding: 5px 20px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.dark{
+    width: 0px;
+    height: 0px;
+    background: black;
+    transition:0.5s;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    transform: scale(1.6);
+}
+.dark-mode{
+    border-radius: 100%;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    transform: scale(1.6);
+    position: absolute;
+}  
+.wrapper{
+    padding-bottom: 100px;
+    overflow: hidden;
+    position: relative;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+.darks{
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    transition: 0.5s;
+}
+.darks i:hover{
+    cursor: pointer;
+}
+.darkBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

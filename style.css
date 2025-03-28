@@ -53,6 +53,7 @@
     justify-content: space-between;
     align-items: center;
     transition: 0.5s;
+    gap: 10px;
 }
 .delbtn{
     padding: 5px 20px;
@@ -87,7 +88,15 @@
     position: relative;
     min-height: 100vh;
     padding-top: 20px;
+    min-width: 300px;
 }
+
+@media (max-width:768px){
+    .wrapper{
+        padding:20px;
+    }
+}
+
 .darks{
     background-color: transparent;
     border: none;

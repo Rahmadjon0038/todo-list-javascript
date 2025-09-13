@@ -37,5 +37,5 @@ Loyiha dastlab **JavaScript asoslarini mustahkamlash** va amaliy tajriba orttiri
 
 1. Reponi clone qiling:  
    ```bash
-   git clone https://github.com/username/todo-list.git
+   git clone https://github.com/Rahmadjon0038/todo-list.git
    cd todo-list
